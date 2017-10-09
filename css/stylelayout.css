@@ -10,11 +10,7 @@ header {
   background-image: url("grfx/header.jpg") ;
 }
 
-article {
-    margin: 13px;
-    height: 400px;
-    width: 200px;
-  }
+
 
 Main {
   display: flex;
@@ -31,26 +27,78 @@ Main {
 .column-1 {
   display: flex;
   flex-direction: column;
-  background-color: green;
   height: 400px;
   width: 200px;
+  margin: 10px;
 }
 
 .column-2 {
   display: flex;
   flex-direction: column;
-  background-color: red;
   height: 400px;
   width: 200px;
+  margin:10px;
 }
 
-.flex-item {
+.column-3 {
   display: flex;
   flex-direction: column;
   height: 400px;
   width: 200px;
+  margin:10px;
 }
 
+.flex-item {
+  display: flex;
+  background-image: url("grfx/uefa.png");
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-item2 {
+  display: flex;
+  background-image: url("grfx/bbva.png");
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-item3 {
+  display: flex;
+  background-image: url("grfx/vooetbalnl.png");
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-item4 {
+  display: flex;
+  background-image: url("grfx/rfc.png");
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-item5 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+.flex-item6 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
 p {
   color: white;
   font-family: sans-serif;
@@ -60,5 +108,25 @@ p {
 
 h1 {
   font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: blue;
+  font-size: 15px;
+}
+
+h4 {
+  color: white;
+}
+ol {
   color: white;
 }
