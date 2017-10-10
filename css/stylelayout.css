@@ -86,8 +86,6 @@ Main {
 
 .flex-item5 {
   display: flex;
-  flex-direction: column;
-  height: 400px;
   width: 200px;
   margin: 10px;
 }
@@ -129,4 +127,27 @@ h4 {
 }
 ol {
   color: white;
+}
+
+
+#tekst {
+  height: 500px;
+  width: 800px;
+}
+
+#logo {
+  float: right;
+  margin-right: 500px;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  margin-top: 10px;
+}
+#uitslag {
+  float: right;
+  margin: 5px;
+  width: 400px;
 }
